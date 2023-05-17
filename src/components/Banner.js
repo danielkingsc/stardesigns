@@ -17,7 +17,7 @@ export const Banner = () => {
         }, delta)
 
         return () => { clearInterval (ticker)};
-    }, [text])
+    }, )
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -52,7 +52,7 @@ export const Banner = () => {
                     <button onClick={() => console.log('connect')}>Contactame<ArrowRightCircle size={25}></ArrowRightCircle></button>          
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Image"/>
+                        <img src={headerImg} alt="Main"/>
                     </Col>
                 </Row>
             </Container>
