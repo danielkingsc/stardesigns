@@ -6,14 +6,14 @@ import faqImage from "../assets/img/questions.svg";
 export const Questions = () => {
 
   return (
-    <section className="skill" id="skills">
+    <section className="services" id="about">
         <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
           <img src={faqImage} alt="Contacto"/>
           </Col>
           <Col size={12} md={6}>
-             <div className="skill-bx wow zoomIn">
+             <div className="services-bx wow zoomIn">
                 <h2>Preguntas Frecuentes</h2>
                 <p><br></br>Como diseñadora con experiencia le puedo ofrecer varios servicios entre los cuales están los siguientes</p>
                 <div className="item">

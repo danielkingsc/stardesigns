@@ -27,14 +27,14 @@ export const Services = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="services" id="services">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="services-bx wow zoomIn">
                         <h2>Servicios</h2>
                         <p><br></br>Como diseñadora con experiencia le puedo ofrecer varios servicios entre los cuales están los siguientes</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme services-slider">
                             <div className="item">
                                 <img src={meter1} alt="Diseñador" />
                                 <h5>Portada de Libros</h5>

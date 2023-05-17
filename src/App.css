@@ -84,6 +84,9 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+.ms-auto {
+  margin-left: 0!important;
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -98,10 +101,6 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
     width: 9%;
-}
-
-.me-auto{
-  margin:auto !important;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -308,29 +307,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
-.skill {
+/************ Services Css ************/
+.services {
   padding: 0 0 50px 0;
   position: relative;
 }
-.skill-bx {
+.services-bx {
   background: #151515;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
-.skill h2 {
+.services h2 {
 	font-size: 45px;
 	font-weight: 700;
 }
-.skill p {
+.services p {
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
+
+.services-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.services-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
 .background-image-right {
   top: -105px !important;
   position: absolute;
@@ -363,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -375,7 +385,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
-  padding: 17px 0;
+  padding: 21px 0;
   color: #fff;
   width: 100%;
   font-size: 17px;
